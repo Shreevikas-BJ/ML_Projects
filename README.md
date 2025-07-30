@@ -10,13 +10,13 @@ Each folder here reflects a part of my journey — tackling real-world problems,
 ## 🗂️ Projects Included
 
 ### 🩺 Medical Chatbot (RAG + GPT-3.5)
-A Retrieval-Augmented Generation (RAG) based AI chatbot built using LangChain, FAISS, and OpenAI GPT-3.5, trained on real medical documents (CDC, WHO) for context-aware responses. Built with Streamlit.
+AI-powered chatbot that answers health-related queries by retrieving answers from CDC and WHO documents using FAISS VectorStore. Falls back to GPT-3.5 when context is missing.
 
 ### 🏠 House Price Predictor
-Built a regression-based machine learning model using sklearn to predict house prices. Included outlier treatment, feature scaling, and model evaluation.
+XGBoost regression model predicting house prices based on real-world housing features. Includes data cleaning, feature engineering, and RMSE evaluation.
 
 ### 💬 Sentiment Analysis
-Performed sentiment classification on text data (e.g., reviews or tweets) using NLP techniques and logistic regression. Visualized insights using WordClouds and charts.
+Streamlit-based app that classifies movie reviews into sentiment categories using a fine-tuned BERT model. Built with Hugging Face Transformers and PyTorch.
 
 ### ☁️ CityWeather
 A web app that fetches and displays real-time weather data using API integrations — built with a focus on clean UI and API handling.
@@ -25,10 +25,10 @@ A web app that fetches and displays real-time weather data using API integration
 Performed SQL-based analysis on COVID-19 vaccination datasets to extract insights and trends from global vaccination campaigns.
 
 ### 📉 Customer_Churn_Prediction
-Used machine learning to predict customer churn for a telecom dataset — includes data cleaning, EDA, feature engineering, and modeling.
+Logistic regression model to predict telecom customer churn using demographic and usage data. Includes EDA, feature encoding, model evaluation, and accuracy metrics.
 
 ### 📈 NVIDIA Stock Analysis
-A stock performance analysis of NVIDIA using Python (Pandas, Matplotlib) to track price trends, volumes, and moving averages.
+Time-series and volatility modeling on NVIDIA stock using ARIMA, LSTM, and GARCH to uncover seasonality, predict trends, and assess risk.
 
 ### 🌿 PowerBI_Plant_Co
 Created a Power BI dashboard to visualize operational and sales metrics of a fictional plant company for actionable business insights.
