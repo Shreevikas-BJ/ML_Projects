@@ -1,4 +1,4 @@
-*DataScience-ML-Project-Portfolio*
+*ML_Project_Portfolio*
 
 Welcome!
 This repository showcases a collection of projects built with passion, curiosity, and a continuous drive to learn and create.
